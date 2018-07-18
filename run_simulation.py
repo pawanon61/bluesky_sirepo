@@ -1,5 +1,5 @@
 from simulate import Simulate
-import requests
+
 sim_id = '7IK2W59z'
 sim = Simulate('http://10.10.10.10:8000')
 

@@ -1,6 +1,8 @@
 #  get graph for simulation data
 import argparse
 from extract_simulation_data import *
+import matplotlib
+matplotlib.use("Agg")  # so that matplotlib doesnot look for display environment
 import matplotlib.pyplot as plt
 
 def plot_simulation_data():
